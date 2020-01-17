@@ -28,21 +28,21 @@
 
     <h1>Tarefas</h1>
 
-    <button id="btn-adicionar"  type="button" class="btn btn-outline-primary">Adicionar uma tarefa</button></div>
+    <button id="btn-adicionar" type="button" class="btn btn-outline-primary">Adicionar uma tarefa</button></div>
     <div class="form-tamanho">
-        <input id="form-adicionar" class="form-esconder" type="text" placeholder="Tarefa"></div>
+        <input id="form-adicionar" class="form-esconder" name="inputtarefa" type="text" placeholder="Tarefa"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-6">
                 <h3> Tarefas Pendentes</h3>
-                <ul>
-                    <li>
+                <ul id="lista-tarefas-pendentes">
+                    <li class="tarefa-pendente">
                         Tarefa pendente número 01
                     </li>
-                    <li>
+                    <li class="tarefa-pendente">
                         Tarefa pendente número 02
                     </li>
-                    <li>
+                    <li class="tarefa-pendente">
                         Tarefa pendente número 03
                     </li>
                 </ul>
@@ -52,17 +52,17 @@
             <div class="col-sm-6">
                 <h3>Tarefas Concluídas</h3>
 
-                <ul>
-                    <li>
+                <ul class="lista-tarefas-concluidas">
+                    <li class="tarefa-concluida">
                         Tarefa concluída número 01
                     </li>
-                    <li>
+                    <li class="tarefa-concluida">
                         Tarefa concluída número 02
                     </li>
-                    <li>
+                    <li class="tarefa-concluida">
                         Tarefa concluída número 03
                     </li>
-                </ul>
+                    </ul">
             </div>
         </div>
     </div>
