@@ -10,7 +10,7 @@ ocultarBotao(botaoAdicionar, formTarefa);
 adicionarTarefa(formTarefa, botaoAdicionar, tableTarefaPend, tableTarefaPendTBody);
 concluirTarefa(tableTarefaPend);
 
-moverConcluida ();
+
 
 function adicionarTarefa(formTarefa, botaoAdicionar, tableTarefaPend, tableTarefaPendTBody) {
 
@@ -72,6 +72,9 @@ function concluirTarefa(tableTarefaPend, txtTarefaConc) {
         
         const txtTarefaConc = e.target.textContent;
         console.log(e.target);
+
+
+        moverConcluida (txtTarefaConc);
         
     });
 }
